@@ -5,7 +5,9 @@ export default function Header() {
         <header>
 
             <figure>
-                <img src="./public/dc-logo.png" alt="logo" />
+
+                <img src="./assets/img/dc-logo.png" alt="logo" />
+
             </figure>
 
             <nav>
