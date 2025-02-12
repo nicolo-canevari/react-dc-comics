@@ -22,6 +22,7 @@
 
 }
 
+/* REGOLE BODY */
 body {
 
   font-family: Open sans-serif;
@@ -41,6 +42,7 @@ header {
 
 }
 
+/* contenitore header */
 header div {
 
   display: flex;
@@ -57,13 +59,14 @@ figure {
 
 }
 
-/* lista header */
+/* lista nav */
 nav ul {
 
   list-style-type: none;
 
 }
 
+/* li items */
 nav ul li {
 
   display: inline-block;
@@ -72,6 +75,7 @@ nav ul li {
 
 }
 
+/* a solo di li */
 nav ul li a {
 
   color: #0c7cec;
@@ -79,9 +83,11 @@ nav ul li a {
 
 }
 
+/* effetto per il bordo */
 a.active {
 
-  border-bottom: 2px solid #0c7cec;
+  border-bottom: 10px solid #0c7cec;
+  padding-bottom: 2vw;
 
 }
 
@@ -89,15 +95,12 @@ a.active {
 /* REGOLE MAIN */
 main {
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: auto;
+  width: 100vw;
 
 }
 
-/* blocco 1 */
+/* BLOCCO 1 */
 main #content {
 
   display: flex;
@@ -109,7 +112,16 @@ main #content {
 
 }
 
-/* titolo */
+#container1 {
+
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 100vw;
+
+}
+
+/* titolo blocco 1*/
 h1 {
 
   font-weight: bolder;
@@ -117,7 +129,8 @@ h1 {
 
 }
 
-/* blocco 2 */
+
+/* BLOCCO 2 */
 main #feature {
 
   display: flex;
@@ -125,6 +138,15 @@ main #feature {
   align-items: center;
   width: 80vw;
   background-color: #0c7cec;
+
+}
+
+#container2 {
+
+  display: flex;
+  justify-content: center;
+  background-color: #0c7cec;
+  width: 100vw;
 
 }
 
@@ -137,10 +159,26 @@ main #feature {
 
 }
 
-#feature img {
+/* testo card */
+.card span {
+
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+
+}
+
+/* immagini card */
+.card img {
 
   font-size: 1em;
   padding: 1.5vw;
+
+}
+
+#svg {
+
+  width: 9vw;
 
 }
 

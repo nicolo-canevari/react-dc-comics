@@ -4,7 +4,7 @@ export default function Main() {
 
         <main>
 
-            <div className="container1">
+            <div id="container1">
 
                 <section id="content">
 
@@ -14,7 +14,7 @@ export default function Main() {
 
             </div>
 
-            <div className="container2">
+            <div id="container2">
 
                 <section id="feature">
 
