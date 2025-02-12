@@ -1,19 +1,3 @@
-/* :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-family: Open sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
-
 * {
 
   padding: 0;
@@ -53,9 +37,9 @@ header div {
 }
 
 /* logo header */
-figure {
+figure img {
 
-  font-size: 1em;
+  width: 3.5vw;
 
 }
 
@@ -91,6 +75,7 @@ a.active {
 
 }
 
+---------------------------------------------------------------------------------
 
 /* REGOLE MAIN */
 main {
@@ -122,7 +107,7 @@ main #content {
 }
 
 /* titolo blocco 1*/
-h1 {
+h1 a {
 
   font-weight: bolder;
   font-size: 2.5em;
@@ -165,13 +150,14 @@ main #feature {
   color: white;
   font-weight: bolder;
   cursor: pointer;
+  font-size: 1em;
 
 }
 
 /* immagini card */
 .card img {
 
-  font-size: 1em;
+  width: 6vw;
   padding: 1.5vw;
 
 }
@@ -183,12 +169,12 @@ main #feature {
 
 }
 
+----------------------------------------------------------------------------------
 
 /* REGOLE FOOTER */
 footer {
 
   width: 100vw;
-  height: auto;
   background-color: gray;
 
 }
@@ -213,6 +199,42 @@ footer {
 
 }
 
+/* colonne div link */
+.column {
+
+  flex: 0.2;
+
+}
+
+
+/* regole h2 */
+h2 {
+
+  color: white;
+  font-size: 1.3em;
+  font-weight: bolder;
+  margin-bottom: 1vw;
+
+}
+
+/* regole li items */
+#link ul li {
+
+  margin-bottom: 0.5vw;
+  text-decoration: none;
+  list-style-type: none;
+
+}
+
+#link a {
+
+  color: gray;
+  font-size: 1em;
+  cursor: pointer;
+
+}
+
+
 /* logo grande footer */
 #f_logo {
 
@@ -222,26 +244,78 @@ footer {
 
 }
 
+#f_logo img {
+
+  overflow: hidden;
+
+}
+
 
 /* BLOCCO 2 FOOTER */
 #fcont2 {
 
   display: flex;
-  background-color: grey;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(85, 81, 81);
+  padding: 1vw;
 
 }
 
-/* colonne div link */
-.column {
+/* regole bottone */
+.signup {
 
-  flex: 1;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 40vw;
+
+}
+
+button {
+
+  background-color: rgba(255, 255, 255, 0);
+  border: 3px solid #0c7cec;
+
+}
+
+button h3 {
+
+  color: white;
+  font-size: 1.2em;
+  font-weight: bolder;
+  padding: 0.3vw;
+  cursor: pointer;
 
 }
 
 
+/* regole container icons */
+.icons {
 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40vw;
 
+}
 
+/* immagini social */
+.icons img {
+
+  filter: grayscale(100%) brightness(50%);
+  cursor: pointer;
+
+}
+
+/* titolo icone */
+.icons h3 {
+
+  color: #0c7cec;
+  font-size: 1.5em;
+  font-weight: bolder;
+
+}
 
 
 
@@ -256,7 +330,21 @@ a {
 
 
 
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Open sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
 
 /* a {
   font-weight: 500;
