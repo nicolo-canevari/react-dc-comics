@@ -176,11 +176,70 @@ main #feature {
 
 }
 
+/* id svg */
 #svg {
 
   width: 9vw;
 
 }
+
+
+/* REGOLE FOOTER */
+footer {
+
+  width: 100vw;
+  height: auto;
+  background-color: gray;
+
+}
+
+/* BLOCCO 1 FOOTER */
+#fcont1 {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../public/img/footer-bg.jpg);
+  background-size: cover;
+
+}
+
+/* lista link footer */
+#link {
+
+  display: flex;
+  justify-content: start;
+  width: 40vw;
+
+}
+
+/* logo grande footer */
+#f_logo {
+
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+
+}
+
+
+/* BLOCCO 2 FOOTER */
+#fcont2 {
+
+  display: flex;
+  background-color: grey;
+
+}
+
+/* colonne div link */
+.column {
+
+  flex: 1;
+
+}
+
+
+
 
 
 
