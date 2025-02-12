@@ -1,4 +1,4 @@
-export default function FeatureMain() {
+export default function main() {
 
     return (
 

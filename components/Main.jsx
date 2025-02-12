@@ -6,7 +6,7 @@ export default function Main() {
 
             <section id="content">
 
-                <h1> `&gt;` Content goes here `&gt;` </h1>
+                <h1><a href="">» Content goes here «</a> </h1>
 
             </section>
 
