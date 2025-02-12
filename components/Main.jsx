@@ -4,11 +4,50 @@ export default function Main() {
 
         <main>
 
-            <section id="content">
+            <div className="container1">
 
-                <h1><a href="">» Content goes here «</a> </h1>
+                <section id="content">
 
-            </section>
+                    <h1><a href="">» Content goes here «</a> </h1>
+
+                </section>
+
+            </div>
+
+            <div className="container2">
+
+                <section id="feature">
+
+                    <div className="card">
+                        <img src="./public/img/buy-comics-digital-comics.png" alt="" />
+                        <span>DIGITAL COMICS</span>
+                    </div>
+
+                    <div className="card">
+                        <img src="./public/img/buy-comics-merchandise.png" alt="" />
+                        <span>DC MERCHANDISE</span>
+                    </div>
+
+                    <div className="card">
+                        <img src="./public/img/buy-comics-subscriptions.png" alt="" />
+                        <span>SUBSCRIPTION</span>
+                    </div>
+
+                    <div className="card">
+                        <img src="./public/img/buy-comics-shop-locator.png" alt="" />
+                        <span>COMIC SHOP LOCATOR</span>
+                    </div>
+
+                    <div className="card">
+                        <img id="svg" src="./public/img/buy-dc-power-visa.svg" alt="" />
+                        <span>DC POWER VISA</span>
+                    </div>
+
+                </section>
+
+            </div>
+
+
 
         </main>
 
