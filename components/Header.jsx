@@ -1,3 +1,6 @@
+// Importo il componente NavMenu
+import NavMenu from "./NavMenu.jsx";
+
 // Destrutturazione dei "links" dalla prop
 export default function Header({ links }) {
 
@@ -13,29 +16,8 @@ export default function Header({ links }) {
 
                 </figure>
 
-                <nav>
-
-                    <ul>
-
-                        {/* Controllo se "links è un array" prima di usare "map*/}
-                        {Array.isArray(links) && links.map((link, index) => (
-
-                            <li key={index}>
-
-                                {/* Verifico se "isActive" è true per aggiungere la classe "active" */}
-                                <a href={link.href} className={link.active ? 'active' : ''}>
-
-                                    {/* proprietà "name" dell'array */}
-                                    {link.name}
-                                </a>
-
-                            </li>
-
-                        ))}
-
-                    </ul>
-
-                </nav>
+                {/* Uso il componente NavMenu e passo i links come prop */}
+                <NavMenu links={links} />
 
             </div>
 
