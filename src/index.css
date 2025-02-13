@@ -9,11 +9,13 @@
 /* REGOLE BODY */
 body {
 
-  font-family: Open sans-serif;
+  font-family: Open sans;
   height: 100vh;
   width: 100vw;
 
 }
+
+/* =================================================================== */
 
 /* REGOLE HEADER */
 header {
@@ -39,35 +41,29 @@ header div {
 /* logo header */
 figure img {
 
-  width: 3.5vw;
+  width: 3.6vw;
 
 }
 
-/* lista nav */
-nav ul {
 
-  list-style-type: none;
-
-}
-
-/* li items */
+/* regole lista nav (header) */
 nav ul li {
 
   display: inline-block;
   margin: 1vw;
   text-decoration: none;
+  list-style-type: none;
 
 }
 
 /* a solo di li */
-nav ul li a {
+nav a {
 
-  color: #0c7cec;
-  font-size: 1em;
+  color: black;
 
 }
 
-/* effetto per il bordo */
+/* effetto per il bordo  sotto "comics"*/
 a.active {
 
   border-bottom: 10px solid #0c7cec;
@@ -75,7 +71,7 @@ a.active {
 
 }
 
----------------------------------------------------------------------------------
+/* ================================================================== */
 
 /* REGOLE MAIN */
 main {
@@ -109,8 +105,7 @@ main #content {
 /* titolo blocco 1*/
 h1 a {
 
-  font-weight: bolder;
-  font-size: 2.5em;
+  font-size: 1.5vw;
 
 }
 
@@ -148,34 +143,34 @@ main #feature {
 .card span {
 
   color: white;
-  font-weight: bolder;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 0.7vw;
+  margin-left: 0.5vw;
 
 }
 
 /* immagini card */
 .card img {
 
-  width: 6vw;
-  padding: 1.5vw;
+  width: 3.5vw;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
 
 }
 
 /* id svg */
 #svg {
 
-  width: 9vw;
+  width: 5.6vw;
 
 }
 
-----------------------------------------------------------------------------------
+/* =================================================================== */
 
 /* REGOLE FOOTER */
 footer {
 
   width: 100vw;
-  background-color: gray;
 
 }
 
@@ -187,6 +182,8 @@ footer {
   align-items: center;
   background-image: url(../public/img/footer-bg.jpg);
   background-size: cover;
+  position: relative;
+  overflow: hidden;
 
 }
 
@@ -202,7 +199,8 @@ footer {
 /* colonne div link */
 .column {
 
-  flex: 0.2;
+  flex: 0.21;
+  padding: 2vw;
 
 }
 
@@ -211,8 +209,7 @@ footer {
 h2 {
 
   color: white;
-  font-size: 1.3em;
-  font-weight: bolder;
+  font-size: 0.8vw;
   margin-bottom: 1vw;
 
 }
@@ -229,7 +226,6 @@ h2 {
 #link a {
 
   color: gray;
-  font-size: 1em;
   cursor: pointer;
 
 }
@@ -246,7 +242,11 @@ h2 {
 
 #f_logo img {
 
-  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  width: 31vw;
 
 }
 
@@ -257,7 +257,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(85, 81, 81);
+  background-color: rgb(53, 51, 51);
   padding: 1vw;
 
 }
@@ -282,7 +282,7 @@ button {
 button h3 {
 
   color: white;
-  font-size: 1.2em;
+  font-size: 0.9vw;
   font-weight: bolder;
   padding: 0.3vw;
   cursor: pointer;
@@ -303,8 +303,10 @@ button h3 {
 /* immagini social */
 .icons img {
 
-  filter: grayscale(100%) brightness(50%);
+  filter: grayscale(100%) brightness(80%);
   cursor: pointer;
+  width: 1.5vw;
+
 
 }
 
@@ -312,18 +314,18 @@ button h3 {
 .icons h3 {
 
   color: #0c7cec;
-  font-size: 1.5em;
-  font-weight: bolder;
+  font-size: 0.8vw;
 
 }
 
+/* ================================================================== */
 
-
-/* regole di tutti i link */
+/* regole di tutti i tag a */
 a {
 
   text-decoration: none;
   color: white;
+  font-size: 0.6vw;
 
 }
 
