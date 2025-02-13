@@ -1,3 +1,4 @@
+// funzione che gestisce le icone e il blocco azzurro
 export default function FeatureMain() {
 
     return (

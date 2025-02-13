@@ -1,4 +1,5 @@
-export default function Footer() {
+// Destrutturazione dei "links" dalla prop, uso (props) se non voglio usare la destrutturazione
+export default function Footer({ links }) {
 
     return (
 
@@ -13,21 +14,30 @@ export default function Footer() {
                         <h2>DC COMICS</h2>
                         <ul>
 
-                            <li><a href="">Characters</a></li>
-                            <li><a href="">Comics</a></li>
-                            <li><a href="">Movies</a></li>
-                            <li><a href="">TV</a></li>
-                            <li><a href="">Games</a></li>
-                            <li><a href="">Videos</a></li>
-                            <li><a href="">News</a></li>
+                            {links.dcComics.map((link, index) => (
+
+                                <li key={index}>
+
+                                    <a href={link.href}>{link.name}</a>
+
+                                </li>
+
+                            ))}
 
                         </ul>
 
                         <h2>SHOP</h2>
                         <ul>
 
-                            <li><a href="">Shop DC</a></li>
-                            <li><a href="">Shop DC Collectibles</a></li>
+                            {links.shop.map((link, index) => (
+
+                                <li key={index}>
+
+                                    <a href={link.href}>{link.name}</a>
+
+                                </li>
+
+                            ))}
 
                         </ul>
 
@@ -38,17 +48,15 @@ export default function Footer() {
                         <h2>DC</h2>
                         <ul>
 
-                            <li><a href="">Terms of Use</a></li>
-                            <li><a href="">Privacy policy (New)</a></li>
-                            <li><a href="">Ad Choises</a></li>
-                            <li><a href="">Advertaising</a></li>
-                            <li><a href="">Jobs</a></li>
-                            <li><a href="">Subscriptions</a></li>
-                            <li><a href="">Talent Workshop</a></li>
-                            <li><a href="">CPSC Certificates</a></li>
-                            <li><a href="">Ratings</a></li>
-                            <li><a href="">Shop Help</a></li>
-                            <li><a href="">Contact Us</a></li>
+                            {links.dc.map((link, index) => (
+
+                                <li key={index}>
+
+                                    <a href={link.href}>{link.name}</a>
+
+                                </li>
+
+                            ))}
 
                         </ul>
 
@@ -59,11 +67,15 @@ export default function Footer() {
                         <h2>SITES</h2>
                         <ul>
 
-                            <li><a href="">DC</a></li>
-                            <li><a href="">MAD Magazine</a></li>
-                            <li><a href="">DC kids</a></li>
-                            <li><a href="">DC universe</a></li>
-                            <li><a href="">DC Power Visa</a></li>
+                            {links.sites.map((link, index) => (
+
+                                <li key={index}>
+
+                                    <a href={link.href}>{link.name}</a>
+
+                                </li>
+
+                            ))}
 
                         </ul>
 

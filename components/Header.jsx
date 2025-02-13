@@ -1,7 +1,7 @@
 // Importo il componente NavMenu
 import NavMenu from "./NavMenu.jsx";
 
-// Destrutturazione dei "links" dalla prop
+// Destrutturazione dei "links" dalla prop, uso (props) se non voglio usare la destrutturazione
 export default function Header({ links }) {
 
     return (
