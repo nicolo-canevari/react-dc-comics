@@ -1,4 +1,5 @@
-export default function Header() {
+// Destrutturazione dei "links" dalla prop
+export default function Header({ links }) {
 
     return (
 
@@ -16,16 +17,21 @@ export default function Header() {
 
                     <ul>
 
-                        <li><a href="">CHARACTERS</a></li>
-                        <li><a href="" className="active">COMICS</a></li>
-                        <li><a href="">MOVIES</a></li>
-                        <li><a href="">TV</a></li>
-                        <li><a href="">GAMES</a></li>
-                        <li><a href="">COLLECTIBLES</a></li>
-                        <li><a href="">VIDEOS</a></li>
-                        <li><a href="">FANS</a></li>
-                        <li><a href="">NEWS</a></li>
-                        <li><a href="">SHOP</a></li>
+                        {/* Controllo se "links è un array" prima di usare "map*/}
+                        {Array.isArray(links) && links.map((link, index) => (
+
+                            <li key={index}>
+
+                                {/* Verifico se "isActive" è true per aggiungere la classe "active" */}
+                                <a href={link.href} className={link.active ? 'active' : ''}>
+
+                                    {/* proprietà "name" dell'array */}
+                                    {link.name}
+                                </a>
+
+                            </li>
+
+                        ))}
 
                     </ul>
 

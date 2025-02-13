@@ -63,8 +63,8 @@ nav a {
 
 }
 
-/* effetto per il bordo  sotto "comics"*/
-a.active {
+/* effetto per il bordo sotto i link nel navbar*/
+nav a:active {
 
   border-bottom: 10px solid #0c7cec;
   padding-bottom: 2vw;
