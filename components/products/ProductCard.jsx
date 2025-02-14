@@ -5,8 +5,23 @@ export default function ProductCard(props) {
 
         <div className="prod-card">
 
-            <img src={props.productThumb} alt={props.productTitle} />
-            <h4>{props.productTitle}</h4>
+            <div className="card">
+
+                <div className="album">
+
+                    <img src={props.productThumb} alt={props.productTitle} />
+
+                </div>
+
+                <div className="title_text">
+
+                    <h4>{props.productTitle}</h4>
+
+                </div>
+
+
+
+            </div>
 
         </div>
 

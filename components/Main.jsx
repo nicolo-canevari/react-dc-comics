@@ -12,7 +12,7 @@ export default function Main() {
 
             <div id="cont-jumbo">
 
-                <section id="jumbotron">
+                <section>
 
                     <img src="./public/img/jumbotron.jpg" alt="" />
 
