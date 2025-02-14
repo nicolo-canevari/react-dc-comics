@@ -99,17 +99,7 @@ main #cont-jumbo {
 
 }
 
-/* contenitore delle card dei fumetti */
-main .comics-container {
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80vw;
-  height: auto;
-
-}
-
+/* contenitore < fumetti */
 #container-dc {
 
   display: flex;
@@ -120,7 +110,48 @@ main .comics-container {
 
 }
 
+/* contenitore delle card dei fumetti */
+main .comics-container {
 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1vw;
+  width: 80vw;
+  height: auto;
+  border: 3px solid white;
+
+}
+
+/* Ogni singola card */
+.prod-card {
+
+  width: 10vw;
+  text-align: start;
+  overflow: hidden;
+
+}
+
+/* Immagine dentro la card */
+.prod-card img {
+
+  height: 15vw;
+  background-size: contain;
+  object-fit: cover;
+  object-position: center top;
+
+}
+
+/* Titolo della card */
+.prod-card h4 {
+
+  font-size: 1vw;
+  font-weight: bold;
+  color: white;
+
+
+}
 
 
 

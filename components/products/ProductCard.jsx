@@ -5,7 +5,7 @@ export default function ProductCard(props) {
 
         <div className="prod-card">
 
-            <img src={props.productSrc} alt={props.productTitle} />
+            <img src={props.productThumb} alt={props.productTitle} />
             <h4>{props.productTitle}</h4>
 
         </div>

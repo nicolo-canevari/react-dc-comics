@@ -166,7 +166,7 @@ export default function ProductsList() {
             <ProductCard
 
                 key={product.id}
-                productSrc={product.src}
+                productThumb={product.thumb}
                 productTitle={product.title}
 
             />)
