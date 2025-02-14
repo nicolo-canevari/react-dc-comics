@@ -22,18 +22,11 @@ export default function Main() {
 
             <section id="container-dc">
 
-                <ProductsList />
+                <div className="comics_container">
 
-                {/* <div className="comics-container">
+                    <ProductsList />
 
-                    <div className="prod-card">
-
-                        
-
-
-                    </div>
-
-                </div> */}
+                </div>
 
             </section>
 

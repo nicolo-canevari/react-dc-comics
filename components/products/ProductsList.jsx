@@ -175,17 +175,11 @@ export default function ProductsList() {
 
     return (
 
-        <div className="comics-container">
+        <div className="prod-card">
 
-            <div className="prod-card">
-
-                {renderProducts()}
-
-            </div>
-
+            {renderProducts()}
 
         </div>
-
 
     )
 
