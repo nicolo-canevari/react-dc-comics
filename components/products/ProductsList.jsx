@@ -1,4 +1,4 @@
-import ProductsCard from "./ProductsCard.jsx";
+import ProductCard from "./ProductCard.jsx";
 
 // array dei prodotti DC
 export default function ProductsList() {
@@ -158,6 +158,35 @@ export default function ProductsList() {
         },
     ];
 
+    // Funzione che mappa l'array 'comics' per creare un componente 'ProductCard' per ogni prodotto
+    function renderProducts() {
+
+        return comics.map(product =>
+
+            <ProductCard
+
+                key={product.id}
+                productSrc={product.src}
+                productTitle={product.title}
+
+            />)
+
+    }
+
+    return (
+
+        <section id="content">
+
+            <button>Current Series</button>
+            <div className="comics-container">
+
+                {renderProducts()}
+
+            </div>
+
+        </section>
+
+    )
+
 }
 
-export default comics;
