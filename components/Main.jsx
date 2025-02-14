@@ -7,11 +7,21 @@ export default function Main() {
 
         <main>
 
+            <div id="cont-jumbo">
+
+                <section id="jumbotron">
+
+                    <img src="./public/img/jumbotron.jpg" alt="" />
+
+                </section>
+
+            </div>
+
             <div id="container1">
 
                 <section id="content">
 
-                    <h1><a href="">» Content goes here «</a> </h1>
+                    {/* <h1><a href="">» Content goes here «</a></h1> */}
 
                 </section>
 

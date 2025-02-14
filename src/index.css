@@ -82,6 +82,23 @@ main {
 }
 
 /* BLOCCO 1 */
+main #cont-jumbo {
+
+  width: 100vw;
+
+}
+
+/* contenitore del jumbotron */
+#cont-jumbo img {
+
+  width: 100vw;
+  height: 23vw;
+  background-size: contain;
+  object-fit: cover;
+  object-position: center top;
+
+}
+
 main #content {
 
   display: flex;
@@ -103,14 +120,10 @@ main #content {
 }
 
 /* titolo blocco 1*/
-h1 a {
-
-  font-size: 1.5vw;
-
-}
 
 
-/* BLOCCO 2 */
+
+/* BLOCCO 3 */
 main #feature {
 
   display: flex;
