@@ -1,6 +1,9 @@
 // Importo FeatureMain.jsx
 import FeatureMain from "./FeatureMain.jsx";
 
+// Importo ProductsList
+import ProductsList from './products/ProductsList.jsx';
+
 export default function Main() {
 
     return (
@@ -17,15 +20,22 @@ export default function Main() {
 
             </div>
 
-            <div id="container1">
+            <section id="container-dc">
 
-                <section id="content">
+                <ProductsList />
 
-                    {/* <h1><a href="">» Content goes here «</a></h1> */}
+                {/* <div className="comics-container">
 
-                </section>
+                    <div className="prod-card">
 
-            </div>
+                        
+
+
+                    </div>
+
+                </div> */}
+
+            </section>
 
             {/* Componente che contiene le icone e il blocco azzurro */}
             <FeatureMain />

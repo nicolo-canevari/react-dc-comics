@@ -175,18 +175,20 @@ export default function ProductsList() {
 
     return (
 
-        <section id="content">
+        <div className="comics-container">
 
-            <button>Current Series</button>
-            <div className="comics-container">
+            <div className="prod-card">
 
                 {renderProducts()}
 
             </div>
 
-        </section>
+
+        </div>
+
 
     )
 
 }
+
 

@@ -99,27 +99,28 @@ main #cont-jumbo {
 
 }
 
-main #content {
+/* contenitore delle card dei fumetti */
+main .comics-container {
 
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   width: 80vw;
-  height: 5vw;
-  background-color: black;
+  height: auto;
 
 }
 
-#container1 {
+#container-dc {
 
   display: flex;
   justify-content: center;
   background-color: black;
   width: 100vw;
+  height: auto;
 
 }
 
-/* titolo blocco 1*/
+
 
 
 
