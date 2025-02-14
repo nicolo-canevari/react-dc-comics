@@ -122,10 +122,10 @@ main .comics_container {
 .prod-card {
 
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   overflow: hidden;
-  gap: 2vw;
-  padding: 2vw 0;
+  padding: 2vw 1vw;
 
 }
 
@@ -197,16 +197,16 @@ main #feature {
 }
 
 /* card icone */
-#feature .card {
+#feature .card_icons {
 
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
 
 }
 
 /* testo card */
-.card span {
+.card_icons span {
 
   color: white;
   cursor: pointer;
@@ -216,7 +216,7 @@ main #feature {
 }
 
 /* immagini card */
-#feature img {
+.card_icons img {
 
   width: 3.5vw;
   padding-top: 1.5vw;
