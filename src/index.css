@@ -15,7 +15,9 @@ body {
 
 }
 
+
 /* =================================================================== */
+
 
 /* REGOLE HEADER */
 header {
@@ -67,11 +69,13 @@ nav a {
 nav a:active {
 
   border-bottom: 20px solid #0c7cec;
-  padding-bottom: 2vw;
+  padding-bottom: 1.8vw;
 
 }
 
+
 /* ================================================================== */
+
 
 /* REGOLE MAIN */
 main {
@@ -82,7 +86,7 @@ main {
 }
 
 
-/* BLOCCO 1 */
+/* BLOCCO 1 MAIN */
 main #cont-jumbo {
 
   width: 100vw;
@@ -99,6 +103,9 @@ main #cont-jumbo {
 
 }
 
+
+/* BLOCCO 2 MAIN */
+
 /* contenitore < fumetti */
 #container-dc {
 
@@ -107,6 +114,29 @@ main #cont-jumbo {
   background-color: black;
   width: 100vw;
   height: auto;
+
+}
+
+/* etichetta */
+#label {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -1vw;
+  left: 15.1vw;
+  background-color: #0c7cec;
+  height: 2vw;
+  width: 12vw;
+
+}
+
+#label h5 {
+
+  font-size: 1vw;
+  color: white;
+  padding: 0.7vw;
 
 }
 
@@ -175,8 +205,32 @@ main .comics_container {
 
 }
 
+/* bottone caricamento */
+#load_button {
 
-/* BLOCCO 3 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: -45vw;
+  left: -45vw;
+  height: 2vw;
+  width: 10vw;
+  background-color: #0c7cec;
+  border: none;
+  cursor: pointer;
+
+}
+
+#load_button button {
+
+  color: white;
+  font-size: 0.8vw;
+  cursor: pointer;
+
+}
+
+/* BLOCCO 3 MAIN */
 main #feature {
 
   display: flex;
@@ -231,7 +285,9 @@ main #feature {
 
 }
 
+
 /* =================================================================== */
+
 
 /* REGOLE FOOTER */
 footer {

@@ -22,9 +22,21 @@ export default function Main() {
 
             <section id="container-dc">
 
+                <div id="label">
+
+                    <h5>CURRENT SERIES</h5>
+
+                </div>
+
                 <div className="comics_container">
 
                     <ProductsList />
+
+                </div>
+
+                <div id="load_button">
+
+                    <button>LOAD MORE</button>
 
                 </div>
 
